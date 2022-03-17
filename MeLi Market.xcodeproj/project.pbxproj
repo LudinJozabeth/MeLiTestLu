@@ -13,6 +13,7 @@
 		4871B59527DFB7370036E3CF /* mockMeLi.json in Resources */ = {isa = PBXBuildFile; fileRef = 4871B59427DFB7370036E3CF /* mockMeLi.json */; };
 		4871B59927DFB7590036E3CF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4871B59827DFB7590036E3CF /* Utils.swift */; };
 		4882D89727E382FE00CEC36F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4882D89927E382FE00CEC36F /* Localizable.strings */; };
+		4882D89D27E38E6B00CEC36F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4882D89C27E38E6B00CEC36F /* Alamofire */; };
 		48EAC0D727E009680088B0CC /* ListViewPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EAC0D627E009680088B0CC /* ListViewPresenterTests.swift */; };
 		48EAC0D927E009A70088B0CC /* ListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EAC0D827E009A60088B0CC /* ListViewControllerTests.swift */; };
 		48EAC0DC27E009F60088B0CC /* ListViewPresenterLogicSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EAC0DB27E009F60088B0CC /* ListViewPresenterLogicSpy.swift */; };
@@ -29,7 +30,6 @@
 		48F42DB927DEB9100004969E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F42DB727DEB9100004969E /* LaunchScreen.storyboard */; };
 		48F42DCE27DEB9100004969E /* MeLi_MarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F42DCD27DEB9100004969E /* MeLi_MarketUITests.swift */; };
 		48F42DD027DEB9100004969E /* MeLi_MarketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F42DCF27DEB9100004969E /* MeLi_MarketUITestsLaunchTests.swift */; };
-		48F42DDE27DEB9250004969E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 48F42DDD27DEB9250004969E /* Alamofire */; };
 		48F42E0327DEDBC20004969E /* ListSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48F42E0227DEDBC20004969E /* ListSearchView.xib */; };
 		48F42E0527DEDBCD0004969E /* ListSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F42E0427DEDBCD0004969E /* ListSearchView.swift */; };
 		48F42E0727DEDBDD0004969E /* ListSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F42E0627DEDBDD0004969E /* ListSearchPresenter.swift */; };
@@ -126,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F42DDE27DEB9250004969E /* Alamofire in Frameworks */,
+				4882D89D27E38E6B00CEC36F /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +384,7 @@
 			);
 			name = "MeLi Market";
 			packageProductDependencies = (
-				48F42DDD27DEB9250004969E /* Alamofire */,
+				4882D89C27E38E6B00CEC36F /* Alamofire */,
 			);
 			productName = "MeLi Market";
 			productReference = 48F42DA927DEB90F0004969E /* MeLi Market.app */;
@@ -460,7 +460,7 @@
 			);
 			mainGroup = 48F42DA027DEB90F0004969E;
 			packageReferences = (
-				48F42DDC27DEB9250004969E /* XCRemoteSwiftPackageReference "alamofire" */,
+				4882D89B27E38E6B00CEC36F /* XCRemoteSwiftPackageReference "alamofire" */,
 			);
 			productRefGroup = 48F42DAA27DEB90F0004969E /* Products */;
 			projectDirPath = "";
@@ -899,7 +899,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		48F42DDC27DEB9250004969E /* XCRemoteSwiftPackageReference "alamofire" */ = {
+		4882D89B27E38E6B00CEC36F /* XCRemoteSwiftPackageReference "alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/alamofire/alamofire.git";
 			requirement = {
@@ -910,9 +910,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		48F42DDD27DEB9250004969E /* Alamofire */ = {
+		4882D89C27E38E6B00CEC36F /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 48F42DDC27DEB9250004969E /* XCRemoteSwiftPackageReference "alamofire" */;
+			package = 4882D89B27E38E6B00CEC36F /* XCRemoteSwiftPackageReference "alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
