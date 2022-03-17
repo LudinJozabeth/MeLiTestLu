@@ -1,0 +1,10 @@
+
+/* Class = "UIButton"; configuration.title = "Buscar"; ObjectID = "CYa-Xz-jgZ"; */
+"CYa-Xz-jgZ.configuration.title" = "Search";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CYa-Xz-jgZ"; */
+"CYa-Xz-jgZ.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "¿Qué estas buscando hoy?"; ObjectID = "l6P-5K-AYL"; */
+"l6P-5K-AYL.placeholder" = "What are you looking for today?";
+

@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  MeLi Market
+
+  Created by Ludin Jozabeth on 17-03-22.
+  
+*/
+
+/* Navigation bar title*/
+"TitleSecondView" = "Results of: ";
+
+/*Home Alert*/
+"Really" = "Really? xD";
+"ForgotSearch" = "Forgot what you were looking for? Enter your search";
+
+/*Details Product*/
+"New" = "New";
+"Used" = "Used";
+"Available" = "Availables ";
+"Rate" = "Rating ";
+"Attributes" = "Product characteristics:\n\n";
